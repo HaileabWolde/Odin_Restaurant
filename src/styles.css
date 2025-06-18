@@ -37,7 +37,51 @@ nav > button:hover{
     width: 50px;
     height: 50px;
 }
-
+.home{
+    display: flex;
+    flex-direction: column;
+   
+}
+.home>h1{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+      font-family: "Roboto", serif;
+    font-weight: 800;
+     font-style: italic;
+}
+.home>p{
+    background-color: rgba(0, 0, 0, 0.562);
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+.home>button{
+    background-color: #e85b30;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+     font-family: "Roboto", serif;
+    font-weight: 800;
+    justify-self: center;
+    align-self: center;
+}
+.home>button:hover{
+    background-color: #d04a1c;
+    scale: 1.05;
+    transition: 0.3s;
+}
 #content{
     display: flex;
     flex-direction: column;
