@@ -1,4 +1,4 @@
-body{
+html, body{
     min-height: 100vh;
     margin: 0;
     background-image: url('./image/Background.jpg');
@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
      background-attachment: fixed; /* Optional: makes the image fixed */
+       font-family: 'Montserrat', sans-serif;
 }
 header{
     margin: 80px auto;
@@ -25,4 +26,21 @@ nav > button{
     font-size: 1.5rem;
     cursor: pointer;
     transition: color 0.3s ease;
+     font-family: "Roboto", serif;
+    font-weight: 800;
+}
+nav > button:hover{
+    color: #14bdac;
+    scale: 1.1;
+}
+.background-image{
+    width: 50px;
+    height: 50px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 200px); /* Adjust height to fit header and footer */
 }
