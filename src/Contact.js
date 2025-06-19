@@ -6,10 +6,8 @@ const contactPage = (function () {
     newDiv.classList.add('contact');
      newDiv.id = 'contact-page';
     newDiv.innerHTML = `
-        <h1>Welcome to Odin Restaurant And Contact Me</h1>
-        <p>Experience the best culinary delights crafted with passion and expertise.</p>
-        <p>Explore our menu, contact us for reservations, or simply enjoy the ambiance.</p>
-        <img src="${image.src}" alt="Restaurant Background" class="background-image">
+        <h1>Give Us A Call !!!</h1>
+       <p>Phone: +251992621400</p>
     `;
    
     return {
